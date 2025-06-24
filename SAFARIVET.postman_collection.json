@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "6ec1e720-5e22-495a-be9b-e0f0f3ebda14",
+		"name": "SAFARIVET",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23485146"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/api/citas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Nicolás\",\r\n  \"lastName\": \"Tovar\",\r\n  \"email\": \"tico1096@gmail.com\",\r\n  \"phone\": \"3001234567\",\r\n  \"petName\": \"Max\",\r\n  \"petClase\": \"Perro\",\r\n  \"date\": \"2025-06-19\",\r\n  \"hour\": \"14:30\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/citas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"citas"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
